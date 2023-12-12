@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+* { padding:0;
+margin:0;
+list-style:none;
+box-sizzing:border-box;
+font-family:Arial;
+}
+
+nav{
+background:#0082e6;
+height:80px;
+width:100%;
+}
+
+.logo {
+color:white;
+font-size:35px;
+line-height:80px;
+padding: 0 100px;
+font-weight:bold;
+  padding: 1em;
+    border: 0px solid #777;
+}
+
+nav ul {
+float:right;
+margin:20px;
+}
+
+nav ul li {
+display:inline-block;
+line-height:80px;
+margin:0 5px;
+}
+
+nav ul li a{
+color:white;
+font-size:17px;
+padding:7px 13px;
+border-radius:3px;
+text-transform:uppercase;
+}
+
+ a:hover{
+  transition: 0.5s ease;
+  background:orange;
+transition:1s;
+  
+}
+
+body{
+  background-color:black;
+  background-image:url("https://images.unsplash.com/photo-1623691162890-9a886d1ed4a2?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIzOTg3MDh8&ixlib=rb-4.0.3&q=85");
+  background-position:500px 400px;
+  background-repeat: no-repeat;
+  background-size: 400px 300px
+}
+
+.uno{font-size:30px;
+color:#ffb503;
+border:3px dotted orange;
+margin:150px 320px;
+width:50%;
+}
